@@ -1,5 +1,251 @@
 @media (max-width: 1023px)
 {
+	.main-title
+	{
+		font-size: 32px;
+	}
+
+	.header
+	{
+		padding-top: 32px;
+	}
+
+	.nav-menu
+	{
+		display: none;
+	}
+
+	.header__box
+	{
+		margin-left: auto;
+	}
+
+	.header__catalog
+	{
+		top: 16px;
+		width: calc(100% - 8px);
+	}
+
+	.header__top
+	{
+		padding-right: 0;
+	}
+
+	.header__menu-item
+	{
+		width: calc(100%/3 - 8px);
+	}
+
+	.header__menu-item._hide
+	{
+		display: block;
+	}
+
+
+	.achievements .main-title
+	{	
+		font-size: 26px;
+	}
+
+	.achievements__top
+	{
+		display: block;
+	}
+
+	.achievements__info
+	{
+		margin-left: 0;
+		margin-top: 8px;
+		max-width: 100%;
+	}
+
+	.achievements__grid
+	{
+		margin: 32px 0 0 -8px;
+	}
+
+	.achievements__item
+	{
+		width: calc(100% / 4 - 8px);
+		margin: 8px 0 0 8px;
+		padding-bottom: 20px;
+	}
+
+	.achievements__number
+	{
+		font-size: 42px;
+		line-height: 1.1;
+	}
+
+	.achievements__desc
+	{
+		font-size: 12px;
+		margin-top: 16px;
+	}
+
+
+	.tours-promo__item 
+	{
+		width: calc(100% / 2 - 4px);
+		margin-top: 8px;
+	}
+
+	.tours-promo__item._big .tours-promo__img 
+	{
+		padding-bottom: 48.92%;
+	}
+
+	.tours-promo__img
+	{
+		padding-bottom: 96.16%;
+	}
+
+	.tours-promo__wrap
+	{
+		padding: 24px;
+	}
+
+	.tours-promo__item._big .tours-promo__wrap
+	{
+		padding: 24px;
+	}
+
+	.tours-promo__top
+	{
+		display: block;
+	}
+
+	.tours-promo__discount
+	{
+		margin-top: 4px;
+	}
+
+	.tours-promo__title 
+	{
+		font-size: 26px;
+		line-height: 1.23;
+	}
+
+	.tours-promo__item._big .tours-promo__title
+	{
+		font-size: 32px;
+	}
+
+	.tours-promo__link span
+	{
+		line-height: 48px;
+	}
+
+
+	.advantages-small-title
+	{
+		font-size: 16px;
+	}
+
+	.advantages-title
+	{
+		font-size: 32px;
+		margin-top: 15px;
+	}
+
+	.advantages__grid
+	{
+		margin-left: -8px;
+		margin-top: 32px;
+	}
+
+	.advantages__item,
+	.advantages__item._big
+	{
+		width: calc(100% / 2 - 8px);
+		margin: 8px 0 0 8px;
+	}
+
+	.advantages__item:first-child
+	{
+		width: calc(100% - 8px);
+	}
+
+	.advantages__box,
+	.advantages__item._big .advantages__box
+	{
+		padding-bottom: 0;
+		height: 314px;
+	}
+
+	.services__grid
+	{
+		margin: 8px 0 0 -8px;
+	}
+
+	.services__item
+	{
+		width: calc(100% / 3 - 8px);
+		margin: 8px 0 0 8px;
+	}
+
+	.services__name
+	{
+		font-size: 18px;
+		padding: 20px;
+	}
+
+
+	.gallery__grid
+	{
+		margin: 8px 0 0 -8px;
+	}
+
+	.gallery__item 
+	{
+		width: calc(100% / 3 - 8px);
+		margin: 8px 0 0 8px;
+	}
+
+	.gallery__item._big
+	{
+		width: calc(100% - 8px);
+	}
+
+	.gallery__img
+	{
+		padding-bottom: 100%;
+	}
+
+	.gallery__item._big .gallery__img 
+	{
+		padding-bottom: 76.1%;
+	}
+
+	.gallery__link
+	{
+		margin-top: 8px;
+	}
+
+
+	.footer
+	{
+		padding-bottom: 32px;
+	}
+
+	.footer__link:nth-child(odd),
+	.footer__link:nth-child(even)
+	{
+		width: 100%;
+	}
+	
+	.footer__bot
+	{
+		display: block;
+		text-align: center;
+		font-size: 10px;
+	}
+
+	.footer__copy
+	{
+		margin-left: 0;
+		margin-top: 2px;
+	}
 	/*------------
 		commit
 	------------*/

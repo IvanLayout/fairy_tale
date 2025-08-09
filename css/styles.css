@@ -716,9 +716,9 @@ button
 	font-weight: 500;
 }
 
-.header__menu-item._btn
+.header__menu-item._hide
 {
-	width: calc(100%/2 - 8px);
+	display: none;
 }
 
 .header__menu-item a
@@ -740,23 +740,6 @@ button
 	flex-wrap: wrap;
 }
 
-.header__menu-item button
-{
-	font-size: 18px;
-	font-weight: 500;
-	color: #2E8B57;
-	background: #FEFEFE;
-	transition: background .2s linear, color .2s linear;
-	display: block;
-	width: 100%;
-	padding: 10px 24px;
-	border-radius: 16px;
-	text-align: center;
-	min-height: 54px;
-	line-height: normal;
-	border: 2px solid #FEFEFE;
-}
-
 @media (any-hover: hover)
 {
 	.header__menu-item a:hover
@@ -764,8 +747,34 @@ button
 		background: rgba(254, 254, 254, 1);
 		color: #2E8B57;
 	}
+}
 
-	.header__menu-item button:hover
+.header__btns
+{
+	justify-content: space-between;
+}
+
+.header__btn
+{
+	width: calc(100%/2 - 4px);
+	font-size: 18px;
+	font-weight: 500;
+	color: #2E8B57;
+	background: #FEFEFE;
+	transition: background .2s linear, color .2s linear;
+	display: block;
+	padding: 10px 24px;
+	border-radius: 16px;
+	text-align: center;
+	min-height: 54px;
+	line-height: normal;
+	margin-top: 8px;
+	border: 2px solid #FEFEFE;
+}
+
+@media (any-hover: hover)
+{
+	.header__btn:hover
 	{
 		background: rgba(254, 254, 254, .2);
 		color: #FEFEFE;
@@ -2729,6 +2738,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 46px;
+	display: inline-block;
 }
 
 .tours-promo__bot
