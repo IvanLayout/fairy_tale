@@ -1,5 +1,259 @@
 @media (max-width: 767px)
 {
+	._marg
+	{
+		margin-top: 48px;
+	}
+
+	.main-title 
+	{
+		font-size: 30px;
+	}
+
+	.header__logo 
+	{
+		width: 190px;
+	}
+
+	.header__box
+	{
+		padding: 0;
+		border-radius: 0;
+		background: none;
+	}
+
+	.header__phone
+	{
+		display: none;
+	}
+
+	.header__burger
+	{
+		margin-left: 0;
+		background: #2E8B57;
+	}
+
+	.header__catalog
+	{
+		padding: 12px;
+		top: 20px;
+	}
+
+	.header__catalog .header__burger
+	{
+		background: rgba(254, 254, 254, 0.2);
+		margin-left: auto;
+	}
+	
+	.header__block
+	{
+		width: 100%;
+		order: 3;
+	}
+
+	.header__contacts
+	{
+		width: 100%;
+		flex-wrap: nowrap;
+		margin-top: 40px;
+	}
+
+	.header__catalog .header__phone
+	{
+		display: block;
+		order: 2;
+		width: 100%;
+		text-align: center;
+	}
+
+	.header__contacts a:nth-child(1)
+	{
+		order: 1;
+		flex-shrink: 0;
+	}
+
+	.header__contacts a:nth-child(2)
+	{
+		order: 3;
+		flex-shrink: 0;
+	}
+
+	.header__menu
+	{
+		margin-top: 0;
+		margin-left: -4px;
+	}
+
+	.header__menu-item 
+	{
+		width: calc(100% / 2 - 4px);
+		margin: 4px 0 0 4px;
+	}
+
+	.header__menu-item._mob-big
+	{
+		width: calc(100% - 4px);
+	}
+
+	.header__btn
+	{
+		width: calc(100% / 2 - 2px);
+		margin-top: 4px;
+	}
+
+
+	.first-section__bg::before,
+	.first-section__bg::after
+	{
+		display: none;
+	}
+
+	.first-section__logo
+	{
+		max-height: 64px;
+	}
+
+	.first-section__info 
+	{
+		height: 470px;
+		padding: 20px 16px;
+	}
+
+	.first-section__title
+	{
+		font-size: 32px;
+	}
+
+	.first-section__title br
+	{
+		display: none;
+	}
+
+
+	.achievements__grid
+	{
+		margin-top: 22px;
+	}
+
+	.achievements__item
+	{
+		width: calc(100% / 2 - 8px);
+	}
+
+	
+	.tours-promo__item
+	{
+		width: 100%;
+	}
+
+	.tours-promo__item._big .tours-promo__img
+	{
+		padding-bottom: 96.16%;
+	}
+
+	.tours-promo__wrap,
+	.tours-promo__item._big .tours-promo__wrap
+	{
+		padding: 20px;
+	}
+
+	.tours-promo__date
+	{
+		font-size: 16px;
+	}
+
+	.tours-promo__link
+	{
+		margin-left: 0;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+
+		width: 46px;
+		height: 46px;
+
+		border-radius: 16px;
+		background: #2E8B57;
+	}
+
+	.tours-promo__link::after
+{
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 50%;
+
+	display: block;
+
+	width: 8px;
+	height: 14px;
+
+	margin-top: -7px;
+	margin-left: -3px;
+
+	background: url(../images/ic_arrow.svg) 50%/contain no-repeat;
+}
+
+	.tours-promo__link span
+	{
+		display: none;
+	}
+
+	.tours-promo__top
+	{
+		display: flex;
+	}
+
+	.tours-promo__title,
+	.tours-promo__item._big .tours-promo__title
+	{
+		font-size: 30px;
+	}
+
+	.tours-promo__discount
+	{
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+
+	.advantages-small-title 
+	{
+		font-size: 14px;
+	}
+
+	.advantages-title
+	{
+		font-size: 30px;
+	}
+
+	.advantages-title br
+	{
+		display: none;
+	}
+
+	.advantages__grid
+	{
+		margin-left: 0;
+	}
+
+	.advantages__item, 
+	.advantages__item._big
+	{
+		width: 100%;
+	}
+
+	.advantages__box, 
+	.advantages__item._big .advantages__box
+	{
+		height: 270px;
+	}
+
+
+	.services__item 
+	{
+		width: calc(100% / 2 - 8px);
+	}
 	/*------------
 		commit
 	------------*/
