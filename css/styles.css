@@ -2635,6 +2635,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	position: relative;
 	overflow: hidden;
 	border-radius: 20px;
+	display: block;
 }
 
 .tours-promo__item._big
@@ -2661,6 +2662,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	position: relative;
 	padding-bottom: 61.62%;
+	display: block;
 }
 
 .tours-promo__item._big .tours-promo__img
@@ -2668,7 +2670,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	padding-bottom: 43.11%;
 }
 
-.tours-promo__item img
+.tours-promo__img img
 {
 	position: absolute;
 	top: 0;
@@ -2680,6 +2682,16 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	height: 100%;
 
 	object-fit: cover;
+
+	transition: transform .4s linear;
+}
+
+@media (any-hover: hover)
+{
+    .tours-promo__item:hover .tours-promo__img img
+    {
+        transform: scale(1.05);
+    }
 }
 
 .tours-promo__wrap
@@ -2732,7 +2744,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 46px;
-	display: inline-block;
 }
 
 .tours-promo__bot
@@ -2750,6 +2761,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	line-height: 1;
 	font-family: var(--font-family2);
 	color: #FEFEFE;
+	display: block;
 }
 
 .tours-promo__item._big .tours-promo__title
@@ -2762,6 +2774,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #BABABA;
 	margin-top: 12px;
 	font-weight: 500;
+	display: block;
 }
 
 .tours-promo__link
@@ -2770,9 +2783,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	flex-shrink: 1;
 	font-size: 18px;
 	font-weight: 500;
+	display: block;
 }
 
-.tours-promo__link a
+.tours-promo__link span
 {
 	text-decoration: none;
 	display: block;
@@ -2785,7 +2799,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	transition: background .2s linear;
 }
 
-.tours-promo__link a::after
+.tours-promo__link span::after
 {
 	position: absolute;
 	content: '';
@@ -2804,7 +2818,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 @media (any-hover: hover)
 {
-	.tours-promo__link a:hover
+	.tours-promo__item:hover .tours-promo__link span
 	{
 		background: #5BB884;
 	}
