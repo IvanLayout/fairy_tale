@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Русептик</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1399.css" media="(max-width: 1399px)">
+		<link rel="stylesheet" href="css/response_1299.css" media="(max-width: 1299px)">
+		<link rel="stylesheet" href="css/response_1199.css" media="(max-width: 1199px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- Шапка -->
+			<header class="header">
+				<div class="cont _flex">
+					<div class="header__logo">
+						<a href="/">
+							<img src="images/logo.svg" alt="">
+						</a>
+					</div>
+
+					<div class="nav-menu _flex">
+						<div class="nav-menu__item">
+							<a href="/" class="nav-menu__sub-link">
+								О базе
+
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</a>
+
+							<div class="nav-menu__sub-menu">
+								<div>
+									<a href="/">Пресса</a>
+								</div>
+								<div>
+									<a href="/">Отзывы</a>
+								</div>
+							</div>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Номера</a>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/" class="nav-menu__sub-link">
+								Развлечения
+
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</a>
+
+							<div class="nav-menu__sub-menu">
+								<div>
+									<a href="/">Туры</a>
+								</div>
+								<div>
+									<a href="/">Охота</a>
+								</div>
+								<div>
+									<a href="/">Спорт</a>
+								</div>
+								<div>
+									<a href="/">Рыбалка</a>
+								</div>
+								<div>
+									<a href="/">Отдых с детьми</a>
+								</div>
+								<div>
+									<a href="/">Дополнительно</a>
+								</div>
+								<div>
+									<a href="/">Подводная охота</a>
+								</div>
+							</div>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Корпоративы</a>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Контакты</a>
+						</div>
+					</div>
+
+					<div class="header__socials _flex">
+						<a href="/" target="_blank" class="header__socials-link">
+							<img data-src="images/ic_soc3.svg" src="images/img_plug.png" alt="" class="lazyload">
+						</a>
+						<a href="/" target="_blank" class="header__socials-link">
+							<img data-src="images/ic_soc4.svg" src="images/img_plug.png" alt="" class="lazyload">
+						</a>
+					</div>
+
+					<div class="header__box _flex">
+						<a class="header__phone" href="tel:+79033481415">+7 (903) 348-14-15</a>
+	
+						<button type="button" class="header__burger header__burger-open">
+							<svg>
+								<use xlink:href="images/sprite.svg#burger"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+
+				<div class="header__catalog">
+					<div class="header__top _flex">
+						<div class="header__logo">
+							<a href="/">
+								<img src="images/logo_light.svg" alt="">
+							</a>
+						</div>
+
+						<div class="header__block _flex">
+							<div class="header__contacts _flex">
+								<a href="/" target="_blank" class="header__contacts-link">
+									<svg>
+										<use xlink:href="images/sprite.svg#telegram"></use>
+									</svg>
+								</a>
+								<a href="/" target="_blank" class="header__contacts-link">
+									<svg>
+										<use xlink:href="images/sprite.svg#whatsapp"></use>
+									</svg>
+								</a>
+
+								<a class="header__phone" href="tel:+79033481415">+7 (903) 348-14-15</a>
+							</div>
+						</div>
+	
+						<button type="button" class="header__burger header__burger-close">
+							<svg>
+								<use xlink:href="images/sprite.svg#burger"></use>
+							</svg>
+						</button>
+					</div>
+
+					<div class="header__menu _flex">
+						<div class="header__menu-item">
+							<a href="/">Рыбалка</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Охота</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Досуг</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Подводная охота</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Услуги</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Акции</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Фото</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Памятка рыболову</a>
+						</div>
+						<div class="header__menu-item _btn">
+							<button type="button" data-content="#callback" class="header__callback-btn modal-btn">Заказать звонок</button>
+						</div>
+						<div class="header__menu-item _btn">
+							<button type="button" data-content="#reservation" class="header__reservation-btn modal-btn">Забронировать</button>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="overlay-catalog"></div>
+
+			<!-- End Шапка -->
+
+			<div class="main">
+				<section class="first-section">
+					<div class="cont">
+						<div class="first-section__bg">
+							<img data-src="images/tmp/main_banner.jpg" src="images/img_plug.png" alt="" class="lazyload first-section__img">
+
+							<div class="first-section__info">
+								<div class="first-section__logo">
+									<img data-src="images/logo_banner.svg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+	
+								<h1 class="first-section__title">Рыболовно-охотничья база <br>в Астраханской области</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="achievements _marg">
+					<div class="cont">
+						<div class="achievements__top _flex">
+							<div class="main-title">Оазис на юге России, Астраханская область</div>
+
+							<div class="achievements__info">
+								На нашей рыболовно-охотничьей базе вы сможете отдохнуть от городской суеты, провести время с семьёй или друзьями и насладиться южным гостеприимством. 
+							</div>
+						</div>
+
+						<div class="achievements__grid _flex">
+							<div class="achievements__item">
+								<div class="achievements__number">1000+</div>
+
+								<div class="achievements__desc">довольных гостей</div>
+							</div>
+							<div class="achievements__item">
+								<div class="achievements__number">25</div>
+
+								<div class="achievements__desc">лет радуем вас</div>
+							</div>
+							<div class="achievements__item">
+								<div class="achievements__number">16</div>
+
+								<div class="achievements__desc">уютных номеров</div>
+							</div>
+							<div class="achievements__item">
+								<div class="achievements__number">10</div>
+
+								<div class="achievements__desc">видов развлечений</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="tours-promo _marg">
+					<div class="cont">
+						<div class="main-title">Сезонные туры и акции</div>
+
+						<div class="tours-promo__items _flex">
+							<div class="tours-promo__item _big">
+								<div class="tours-promo__img">
+									<img data-src="images/tmp/tours_promo1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="tours-promo__wrap">
+									<div class="tours-promo__top">
+										<div class="tours-promo__date">
+											<span>1 июля - 30 сентябрь</span>
+										</div>
+									</div>
+
+									<div class="tours-promo__bot _flex">
+										<div class="tours-promo__info">
+											<div class="tours-promo__title">Лотосовые поля</div>
+
+											<div class="tours-promo__desc">1-дневные туры на лодке в край цветущих лотосов. Восхитительные эмоции и яркие фотографии</div>
+										</div>
+
+										<div class="tours-promo__link">
+											<a href="/" class="">Подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tours-promo__item">
+								<div class="tours-promo__img">
+									<img data-src="images/tmp/tours_promo2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="tours-promo__wrap">
+									<div class="tours-promo__top _flex">
+										<div class="tours-promo__date">С весны на осень</div>
+
+										<div class="tours-promo__discount">Скидка 10%</div>
+									</div>
+
+									<div class="tours-promo__bot">
+										<div class="tours-promo__info">
+											<div class="tours-promo__title">Скидки на раннее бронирование</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tours-promo__item">
+								<div class="tours-promo__img">
+									<img data-src="images/tmp/tours_promo3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="tours-promo__wrap">
+									<div class="tours-promo__top _flex">
+										<div class="tours-promo__date">1 июня - 31 июля</div>
+
+										<div class="tours-promo__discount">Скидка 10%</div>
+									</div>
+
+									<div class="tours-promo__bot">
+										<div class="tours-promo__info">
+											<div class="tours-promo__title">Летом - дешевле</div>
+
+											<div class="tours-promo__desc">2 месяца с максимальной выгодой</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="advantages _marg">
+					<div class="cont">
+						<div class="advantages-small-title">ЗАПОВЕДНАЯ СКАЗКА</div>
+
+						<div class="advantages-title">
+							<span>Уникальная</span> рыболовно-охотничья <br><span>база на юге России</span>, в которой мечтает побывать каждый рыболов
+						</div>
+
+						<div class="advantages__grid _flex">
+							<div class="advantages__item _big advantages__not-icon">
+								<div class="advantages__img">
+									<img data-src="images/tmp/adv_img1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="advantages__box">
+									<div class="advantages__info">
+										<div class="advantages__logo">
+											<img data-src="images/fish.svg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+
+										<div class="advantages__name">Отличный клёв</div>
+	
+										<div class="advantages__desc">В водах Нижней Волги водится более 70 видов рыб, включая крупных сомов, сазанов, щук и судаков</div>
+									</div>
+								</div>
+							</div>
+							<div class="advantages__item _big">
+								<div class="advantages__img">
+									<img data-src="images/tmp/adv_img2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="advantages__box">
+									<div class="advantages__info">
+										<div class="advantages__name">Комфортный сезон</div>
+	
+										<div class="advantages__desc">Мягкий климат позволяет рыбачить почти круглый год, особенно удачно весной и осенью</div>
+									</div>
+								</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__img">
+									<img data-src="images/tmp/adv_img3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="advantages__box">
+									<div class="advantages__info">
+										<div class="advantages__name">Разнообразие</div>
+	
+										<div class="advantages__desc">Множество проток, ериков и раскатов даёт возможность выбирать места для рыбалки с берега или лодки</div>
+									</div>
+								</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__img">
+									<img data-src="images/tmp/adv_img4.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="advantages__box">
+									<div class="advantages__info">
+										<div class="advantages__name">Инфраструктура</div>
+	
+										<div class="advantages__desc">На нашей базе есть все необходимое: проживание, прокат снаряжения, флот, сопутствующие сервисы и услуги</div>
+									</div>
+								</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__img">
+									<img data-src="images/tmp/adv_img5.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+								
+								<div class="advantages__box">
+									<div class="advantages__info">
+										<div class="advantages__name">Пейзажи</div>
+	
+										<div class="advantages__desc">Уникальная природа с лотосами, островами и степями создаёт идеальные условия для отдыха</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="services _marg">
+					<div class="cont">
+						<div class="main-title">Адреналин и трофеи</div>
+
+						<div class="services__grid _flex">
+							<a href="/" class="services__item">
+								<span class="services__number">01</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Рыбалка</span>
+							</a>
+							<a href="/" class="services__item">
+								<span class="services__number">02</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Охота</span>
+							</a>
+							<a href="/" class="services__item">
+								<span class="services__number">03</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Подводная охота</span>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="services _marg">
+					<div class="cont">
+						<div class="main-title">Уютный досуг на базе</div>
+
+						<div class="services__grid _flex">
+							<a href="/" class="services__item">
+								<span class="services__number">01</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services4.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Бассейн</span>
+							</a>
+							<a href="/" class="services__item">
+								<span class="services__number _light">02</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services5.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Караоке</span>
+							</a>
+							<a href="/" class="services__item">
+								<span class="services__number _light">03</span>
+
+								<span class="services__img">
+									<img data-src="images/tmp/services6.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</span>
+
+								<span class="services__name">Площадки</span>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="faq _marg">
+					<div class="cont">
+						<div class="faq__wrap _flex">
+							<div class="faq__box">
+								<div class="main-title">Популярные вопросы от наших гостей</div>
+							</div>
+
+							<div class="faq__items">
+								<div class="faq__item">
+									<div class="faq__name">Как добраться до базы?</div>
+
+									<div class="faq__desc">
+										На выходе из аэропорта вас встретит водитель 
+										<br>с табличкой «Заповедная Сказка». О времени прилета необходимо заранее сообщить по телефону 
+										<br><a href="tel:+79033481415">+7 (903) 348-14-15</a>.
+									</div>
+								</div>
+								<div class="faq__item">
+									<div class="faq__name">Нужно ли брать удочку?</div>
+
+									<div class="faq__desc">В нашем арсенале большой выбор рыболовного снаряжения, поэтому с собой брать не обязательно.</div>
+								</div>
+								<div class="faq__item">
+									<div class="faq__name">Я никогда не ловил <br>рыбу, у меня получится?</div>
+
+									<div class="faq__desc">
+										Рыбалка в Астрахани ещё никого не оставляла 
+										без улова. Опытные егеря научат вас ловить рыбу 
+										на спининг, донку и другими способами.
+									</div>
+								</div>
+								<div class="faq__item">
+									<div class="faq__name">Можно приезжать <br>с детьми?</div>
+
+									<div class="faq__desc">
+										К нам приезжают как компании друзей, так и семьи. Для детей организованы детское меню, настольные игры, аэрохокей и другие развлечения.
+									</div>
+								</div>
+								<div class="faq__item">
+									<div class="faq__name">Как приготовить пойманную рыбу?</div>
+
+									<div class="faq__desc">
+										Вы можете приготовить рыбу самостоятельно 
+										на гриле или в коптильне. Также наши повара могут организовать вам обед или ужин из пойманной 
+										вами рыбы.
+									</div>
+								</div>
+							</div>
+
+							<div class="faq__phone">Если остались вопросы, обращайтесь по номеру <a href="tel:+79033481415">+7 (903) 348-14-15</a>, с радостью поможем вам!</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="gallery _marg">
+					<div class="cont">
+						<div class="main-title">Фотографии базы</div>
+
+						<div class="gallery__grid _flex">
+							<div class="gallery__item">
+								<a href="images/tmp/foto1.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item">
+								<a href="images/tmp/foto2.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item">
+								<a href="images/tmp/foto3.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item _big">
+								<a href="images/tmp/foto4.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto4.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item">
+								<a href="images/tmp/foto5.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto5.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item">
+								<a href="images/tmp/foto6.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto6.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+							<div class="gallery__item">
+								<a href="images/tmp/foto7.jpg" data-fancybox="gallery-foto" class="gallery__img fancy-img">
+									<img data-src="images/tmp/foto7.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+						</div>
+
+						<div class="gallery__link">
+							<a href="/" class="gallery__link">Больше фотогрфий</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="footer _marg">
+				<div class="cont">
+					<div class="footer__cols _flex">
+						<div class="footer__coll">
+							<div class="footer__title">Приезжайте к нам!</div>
+
+							<div class="footer__contacts _flex">
+								<button type="button" data-content="#reservation" class="footer__reservation-btn modal-btn">Забронировать</button>
+
+								<div class="footer__socials _flex">
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#telegram"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#whatsapp"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#vk"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#soc"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer__colr">
+							<div class="footer__menu _flex">
+								<div class="footer__item">
+									<a href="/">О базе</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Номера</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Развлечения</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Туры</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Акции</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Корпоративы</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Рыбалка</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Охота</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer__links _flex">
+						<div class="footer__link">
+							<a href="/">Политика обработки персональных данных</a>
+						</div>
+						<div class="footer__link">
+							<a href="/">Согласие на обработку персональных данных</a>
+						</div>
+					</div>
+
+					<div class="footer__bot _flex">
+						<div class="footer__desc">Вся представленная на сайте информация носит только информационный характер и не является публичной офертой</div>
+
+						<div class="footer__copy">&copy; 2025 Все права защищены</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div id="callback" class="modal">
+			<div class="modal__wrap">
+				<div class="modal__title">Заказать звонок</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<div class="form__label">Ваше имя</div>
+
+						<div class="form__field">
+							<input type="text" value="" placeholder="Например, Иван Иванов..." class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__label">Ваш номер телефона / WhatsApp / Telegram</div>
+
+						<div class="form__field">
+							<input type="tel" value="" placeholder="+7 (___) ___-__-__" data-mask="+7 (999) 999-99-99" class="form__input">
+						</div>
+					</div>
+
+					<button type="submit" class="form__submit-btn btn-green">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+		<div id="write_us" class="modal">
+			<div class="modal__wrap">
+				<div class="modal__title">Напишите нам</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<div class="form__label">Ваше имя</div>
+
+						<div class="form__field">
+							<input type="text" value="" placeholder="Например, Иван Иванов..." class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__label">Ваше сообщение</div>
+
+						<div class="form__field">
+							<textarea class="form__textarea"></textarea>
+						</div>
+					</div>
+
+					<button type="submit" class="form__submit-btn btn-green">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+
+		<div class="supports-error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
