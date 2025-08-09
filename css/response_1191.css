@@ -1,4 +1,168 @@
 @media (max-width: 1191px)
 {
+	._marg
+	{
+		margin-top: 56px;
+	}
+
+	.main-title
+	{
+		font-size: 36px;
+	}
+
+
+	.header__logo
+	{
+		width: 200px;
+	}
+
+	.nav-menu__item + .nav-menu__item 
+	{
+		margin-left: 15px;
+	}
+
+	.header__box
+	{
+		margin-left: 10px;
+	}
+
+	.header__phone
+	{
+		padding: 0 15px;
+	}
+
+
+	.first-section__info
+	{
+		height: 570px;
+		padding: 40px 50px;
+	}
+
+	.first-section__logo
+	{
+		max-height: 100px;
+	}
+
+	.first-section__title
+	{
+		font-size: 42px;
+	}
+
+	.first-section__bg::before
+	{
+		bottom: 40px;
+		right: 40px;
+		width: 26px;
+		height: 26px;
+	}
+
+	.first-section__bg::after
+	{
+		top: 40px;
+		right: 40px;
+		width: 26px;
+		height: 26px;
+	}
+
+
+	.achievements__grid
+	{
+		margin-top: 30px;
+	}
+
+	.achievements__item
+	{
+		padding: 20px 20px 30px;
+	}
+
+	.achievements__number
+	{
+		font-size: 50px;
+	}
+
+	.achievements__desc
+	{
+		margin-top: 35px;
+	}
+
+
+	.tours-promo__wrap
+	{
+		padding: 25px 25px 30px;
+	}
+
+	.tours-promo__item
+	{
+		width: calc(100% / 2 - 10px);
+		margin-top: 20px;
+	}
+
+	.tours-promo__item._big .tours-promo__wrap
+	{
+		padding: 30px;
+	}
+
+	.tours-promo__title
+	{
+		font-size: 36px;
+	}
+
+	.tours-promo__item._big .tours-promo__title
+	{
+		font-size: 42px;
+	}
+
+
+	.advantages-title
+	{
+		font-size: 42px;
+	}
+
+	.advantages__grid
+	{
+		margin-top: 25px;
+	}
+
+	.advantages__name
+	{
+		font-size: 26px;
+	}
+
+
+	.services__number
+	{
+		top: 20px;
+		left: 20px;
+	}
+
+	.services__name
+	{
+		font-size: 22px;
+	}
+
 	
+	.faq__name
+	{
+		font-size: 28px;
+	}
+
+
+	.footer
+	{
+		padding-bottom: 40px;
+	}
+
+	.footer__coll
+	{
+		width: 100%;
+	}
+
+	.footer__colr 
+	{
+		width: 100%;
+		margin-top: 8px;
+	}
+	/*------------
+		commit
+	------------*/
 }
