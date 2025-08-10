@@ -166,4 +166,7 @@
 	/*------------
 		commit
 	------------*/
+	.inhabitants__item {
+    	width: calc(100% / 4 - 8px);
+	}
 }

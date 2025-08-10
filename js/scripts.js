@@ -6,7 +6,7 @@ fakeResize = false
 fakeResize2 = true
 
 if (document.body.clientWidth < 375) {
-	document.getElementsByTagName('meta')['viewport'].content = 'width=405, user-scalable=no'
+	document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
 }
 
 $(() => {
@@ -53,12 +53,11 @@ $(() => {
 		})
 	}
 
-	if ($('.stocks__slider').length) {
-		new Swiper(".stocks__slider", {
+	if ($('.slider-photo').length) {
+		new Swiper(".slider-photo", {
 			loop: true,
-			spaceBetween: 10,
-			slidesPerView: 1,
-			speed: 800,
+			spaceBetween: 4,
+			slidesPerView: 2,
 			watchSlidesProgress: true,
 			watchOverflow: true,
 			preloadImages: false,
@@ -73,19 +72,20 @@ $(() => {
 			navigation: {
 				nextEl: '.slider-button-next',
 				prevEl: '.slider-button-prev'
-			},
-			pagination: {
-				bulletActiveClass: 'slider-dot_active',
-				bulletClass: 'slider-dot',
-				clickableClass: 'slider-pagination-clickable',
-				el: '.slider-pagination',
-				clickable: true
-			},
-			on: {
-				init: function (swiper) {
-					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+			},breakpoints: {
+				'320': {
+					spaceBetween: 4,
+					slidesPerView: 2
 				},
-			}
+				'480': {
+					spaceBetween: 8,
+					slidesPerView: 2
+				},
+				'768': {
+					spaceBetween: 8,
+					slidesPerView: 3
+				}
+			},
 		})
 	}
 
@@ -358,7 +358,7 @@ $(window).on('resize', () => {
 		if (!fakeResize2) {
 			fakeResize2 = true
 
-			if (windowW < 405) document.getElementsByTagName('meta')['viewport'].content = 'width=405, user-scalable=no'
+			if (windowW < 375) document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
 		} else {
 			fakeResize = false
 			fakeResize2 = true
