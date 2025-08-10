@@ -286,6 +286,77 @@
 	}
 
 
+	.select-wrap .nice-select .current
+	{
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+		border-radius: 10px;
+	}
+
+	.select-wrap .nice-select .list .list_item
+	{
+		font-size: 12px;
+	}
+
+
+	.cats-numbers__grid
+	{
+		margin-top: 8px;
+		margin-left: -8px;
+	}
+
+	.cats-numbers__item
+	{
+		width: calc(100% / 2 - 8px);
+		margin: 8px 0 0 8px;
+	}
+
+	.cats-numbers__item._big
+	{
+		width: calc(100% / 2 - 8px);
+	}
+
+	.cats-numbers__img,
+	.cats-numbers__item._big .cats-numbers__img
+	{
+		padding-bottom: 100%;
+	}
+
+	.cats-numbers__top,
+	.cats-numbers__bot
+	{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	.cats-numbers__item._big .cats-numbers__top
+	{
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 24px;
+	}
+
+	.cats-numbers__item._big .cats-numbers__bot
+	{
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-bottom: 24px;
+	}
+
+	.cats-numbers__name,
+	.cats-numbers__item._big .cats-numbers__name
+	{
+		font-size: 32px;
+	}
+
+	.cats-numbers__price,
+	.cats-numbers__item._big .cats-numbers__price 
+	{
+		font-size: 26px;
+	}
+
+
 	.footer
 	{
 		padding-bottom: 32px;
