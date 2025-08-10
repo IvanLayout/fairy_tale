@@ -2007,6 +2007,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	background: #2E8B57;
 }
 
+.select-wrap .nice-select .list .list_item.selected
+{
+	display: none;
+}
+
 
 .file-selection
 {
