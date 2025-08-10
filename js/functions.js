@@ -285,6 +285,18 @@ $(() => {
 		$('.header__catalog').removeClass('_show')
 		$('.overlay-catalog').removeClass('_show')
 	})
+
+
+
+	$('body').on('click', '.aside__list-link._sub', function (e) {
+		e.preventDefault()
+
+		if( $(this).closest('.aside__list-item').hasClass('_active') ) {
+			$(this).closest('.aside__list-item').removeClass('_active')
+		} else {
+			$(this).closest('.aside__list-item').addClass('_active')
+		}
+	})
 })
 
 

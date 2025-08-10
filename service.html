@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Русептик</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		
+		<link rel="stylesheet" href="css/response_1191.css" media="(max-width: 1191px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- Шапка -->
+			<header class="header">
+				<div class="cont _flex">
+					<div class="header__logo">
+						<a href="/">
+							<img src="images/logo.svg" alt="">
+						</a>
+					</div>
+
+					<div class="nav-menu _flex">
+						<div class="nav-menu__item">
+							<a href="/" class="nav-menu__sub-link">
+								О базе
+
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</a>
+
+							<div class="nav-menu__sub-menu">
+								<div>
+									<a href="/">Пресса</a>
+								</div>
+								<div>
+									<a href="/">Отзывы</a>
+								</div>
+							</div>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Номера</a>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/" class="nav-menu__sub-link">
+								Развлечения
+
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</a>
+
+							<div class="nav-menu__sub-menu">
+								<div>
+									<a href="/">Туры</a>
+								</div>
+								<div>
+									<a href="/">Охота</a>
+								</div>
+								<div>
+									<a href="/">Спорт</a>
+								</div>
+								<div>
+									<a href="/">Рыбалка</a>
+								</div>
+								<div>
+									<a href="/">Отдых с детьми</a>
+								</div>
+								<div>
+									<a href="/">Дополнительно</a>
+								</div>
+								<div>
+									<a href="/">Подводная охота</a>
+								</div>
+							</div>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Корпоративы</a>
+						</div>
+						<div class="nav-menu__item">
+							<a href="/">Контакты</a>
+						</div>
+					</div>
+
+					<div class="header__box _flex">
+						<a class="header__phone" href="tel:+79033481415">+7 (903) 348-14-15</a>
+	
+						<button type="button" class="header__burger header__burger-open">
+							<svg>
+								<use xlink:href="images/sprite.svg#burger"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+
+				<div class="header__catalog">
+					<div class="header__top _flex">
+						<div class="header__logo">
+							<a href="/">
+								<img src="images/logo_light.svg" alt="">
+							</a>
+						</div>
+
+						<div class="header__block _flex">
+							<div class="header__contacts _flex">
+								<a href="/" target="_blank" class="header__contacts-link">
+									<svg>
+										<use xlink:href="images/sprite.svg#telegram"></use>
+									</svg>
+								</a>
+								<a href="/" target="_blank" class="header__contacts-link">
+									<svg>
+										<use xlink:href="images/sprite.svg#whatsapp"></use>
+									</svg>
+								</a>
+
+								<a class="header__phone" href="tel:+79033481415">+7 (903) 348-14-15</a>
+							</div>
+						</div>
+	
+						<button type="button" class="header__burger header__burger-close">
+							<svg>
+								<use xlink:href="images/sprite.svg#burger"></use>
+							</svg>
+						</button>
+					</div>
+
+					<div class="header__menu _flex">
+						<div class="header__menu-item _hide">
+							<a href="/">О базе</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Номера</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Развлечения</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Туры</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Контакты</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Корпоративы</a>
+						</div>
+						<div class="header__menu-item _hide">
+							<a href="/">Дополнительно</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Рыбалка</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Охота</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Досуг</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Подводная охота</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Услуги</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Акции</a>
+						</div>
+						<div class="header__menu-item">
+							<a href="/">Фото</a>
+						</div>
+						<div class="header__menu-item _mob-big">
+							<a href="/">Памятка рыболову</a>
+						</div>
+					</div>
+					<div class="header__btns _flex">
+						<button type="button" data-content="#callback" class="header__btn modal-btn">Заказать звонок</button>
+						
+						<button type="button" data-content="#reservation" class="header__btn modal-btn">Забронировать</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="overlay-catalog"></div>
+
+			<!-- End Шапка -->
+
+			<div class="main">
+				<section class="content content_pad">
+					<div class="cont">
+						<div class="content__flex _flex">
+							<aside class="aside">
+								<div class="aside__list">
+									<div class="aside__list-item _active">
+										<a href="/" class="aside__list-link _sub">
+											<span>Активный отдых</span>
+
+											<svg>
+												<use xlink:href="images/sprite.svg#arrow2"></use>
+											</svg>
+										</a>
+
+										<div class="aside__sublist">
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link active">
+													<span>Рыбалка</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Охота</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Подводная охота</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Спорт</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Туры</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Флот</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="aside__list-item">
+										<a href="/" class="aside__list-link _sub">
+											<span>Спокойный отдых</span>
+
+											<svg>
+												<use xlink:href="images/sprite.svg#arrow2"></use>
+											</svg>
+										</a>
+
+										<div class="aside__sublist">
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Бассейн</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Караоке</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Бильярд</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Отдых с детьми</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Спокойный отдых</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Баня</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="aside__list-item">
+										<a href="/" class="aside__list-link _sub">
+											<span>Дополнительно</span>
+
+											<svg>
+												<use xlink:href="images/sprite.svg#arrow2"></use>
+											</svg>
+										</a>
+
+										<div class="aside__sublist">
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Питание</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Трансфер</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Егеря</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Аренда снаряжения</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Оработка трофеев</span>
+												</a>
+											</div>
+											<div class="aside__sublist-item">
+												<a href="/" class="aside__sublist-link">
+													<span>Развлечения</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</aside>
+
+							<div class="content__block">
+								<h1 class="page-title page-title_icon">
+									<span>Рыбалка</span>
+									<span class="page-title__icon">
+										<img data-src="images/fish.svg" src="images/fish.svg" alt="" class="lazyload loaded">
+									</span>
+								</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="footer _marg">
+				<div class="cont">
+					<div class="footer__cols _flex">
+						<div class="footer__coll">
+							<div class="footer__title">Приезжайте к нам!</div>
+
+							<div class="footer__contacts _flex">
+								<button type="button" data-content="#reservation" class="footer__reservation-btn modal-btn">Забронировать</button>
+
+								<div class="footer__socials _flex">
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#telegram"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#whatsapp"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#vk"></use>
+										</svg>
+									</a>
+									<a href="/" target="_blank" class="footer__socials-link">
+										<svg>
+											<use xlink:href="images/sprite.svg#soc"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer__colr">
+							<div class="footer__menu _flex">
+								<div class="footer__item">
+									<a href="/">О базе</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Номера</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Развлечения</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Туры</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Акции</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Корпоративы</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Рыбалка</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Охота</a>
+								</div>
+								<div class="footer__item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer__links _flex">
+						<div class="footer__link">
+							<a href="/">Политика обработки персональных данных</a>
+						</div>
+						<div class="footer__link">
+							<a href="/">Согласие на обработку персональных данных</a>
+						</div>
+					</div>
+
+					<div class="footer__bot _flex">
+						<div class="footer__desc">Вся представленная на сайте информация носит только информационный характер и не является публичной офертой</div>
+
+						<div class="footer__copy">&copy; 2025 Все права защищены</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div id="callback" class="modal">
+			<div class="modal__wrap">
+				<div class="modal__title">Заказать звонок</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<div class="form__label">Ваше имя</div>
+
+						<div class="form__field">
+							<input type="text" value="" placeholder="Например, Иван Иванов..." class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__label">Ваш номер телефона / WhatsApp / Telegram</div>
+
+						<div class="form__field">
+							<input type="tel" value="" placeholder="+7 (___) ___-__-__" data-mask="+7 (999) 999-99-99" class="form__input">
+						</div>
+					</div>
+
+					<button type="submit" class="form__submit-btn btn-green">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+		<div id="write_us" class="modal">
+			<div class="modal__wrap">
+				<div class="modal__title">Напишите нам</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line">
+						<div class="form__label">Ваше имя</div>
+
+						<div class="form__field">
+							<input type="text" value="" placeholder="Например, Иван Иванов..." class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__label">Ваше сообщение</div>
+
+						<div class="form__field">
+							<textarea class="form__textarea"></textarea>
+						</div>
+					</div>
+
+					<button type="submit" class="form__submit-btn btn-green">Отправить</button>
+				</form>
+			</div>
+		</div>
+
+
+		<div class="supports-error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

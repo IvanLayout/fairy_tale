@@ -2106,19 +2106,37 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 .page-title{
-	font-weight: 500;
-	font-size: 50px;
-	letter-spacing: -0.01em;
-	color: #051824;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: .97;
+	color: #29292B;
+	font-family: var(--font-family2);
 }
 
-.page-title b{
-	font-weight: 500;
-	color: #4DBD3C;
+.page-title_icon{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
 }
 
-.page-title span{
-	display: inline-block;
+.page-title__icon{
+	margin-left: 20px;
+	width: 51px;
+	height: 49px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: 6px;
+}
+
+.page-title__icon img{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .main-subtitle
@@ -3110,43 +3128,61 @@ input[type=checkbox]:checked + .checkbox-btn__text
 /*------------
 	faq
 ------------*/
-
-.faq__wrap
+.faq__grid
 {
-	position: relative;
-	justify-content: space-between;
-	flex-wrap: nowrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr auto;
+	gap: 24px 30px;
+    align-items: start;
+	grid-auto-rows: auto;
+}
+
+.faq__top{
+	align-self: stretch;
 }
 
 .faq__box
 {
-	max-width: 471px;
-	width: calc(50% - 15px);
-	padding-bottom: 160px;
+	position: sticky;
+	top: 48px;
+	left: 0;
+}
+
+.faq__colr{
+	grid-column: 2;
+	grid-row: 1 / span 2;
 }
 
 .faq__items
 {
 	max-width: 561px;
-	width: calc(50% - 15px);
+	margin-left: auto;
 }
 
 .faq__item
 {
 	position: relative;
-	padding: 0 54px 0 50px;
 }
 
 .faq__item + .faq__item
 {
-	margin-top: 58px;
+	margin-top: 32px;
+	padding-top: 31px;
+	border-top: 1px solid #F7F7F8;
 }
 
-.faq__item::after
+.faq__item-pad{
+	position: relative;
+	padding-left: 50px;
+	padding-right: 54px;
+}
+
+.faq__item-pad::after
 {
 	position: absolute;
 	content: '';
-	top: 6px;
+	top: 1px;
 	right: 0;
 
 	display: block;
@@ -3157,11 +3193,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	background: url(../images/ic_arrow2.svg) 50% 50% no-repeat;
 }
 
-.faq__item::before
+.faq__item-pad::before
 {
 	position: absolute;
 	content: '';
-	top: 5px;
+	top: 3px;
 	left: 0;
 
 	display: block;
@@ -3191,11 +3227,12 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #29292B;
 }
 
+.faq__bot{
+	align-self: flex-end;
+}
+
 .faq__phone
 {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	max-width: 340px;
 }
 
@@ -3294,6 +3331,112 @@ input[type=checkbox]:checked + .checkbox-btn__text
 /*------------
 	commit
 ------------*/
+.content_pad{
+	padding-top: 24px;
+}
+
+.content__flex{
+	justify-content: space-between;
+}
+
+.aside{
+	width: calc(25% - 20px);
+	max-width: 260px;
+	background: #F7F7F8;
+	border-radius: 20px;
+	padding: 6px;
+}
+
+.aside__list-link{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	min-height: 44px;
+	padding: 6px 20px;
+	position: relative;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #29292B;
+	transition: color .2s linear;
+}
+
+.aside__list-link._sub{
+	padding-right: 46px;
+}
+
+.aside__list-link svg{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+
+	display: block;
+
+	width: 16px;
+	height: 16px;
+
+	margin-top: -8px;
+
+	stroke: currentColor;
+	fill: none;
+}
+
+.aside__list-item._active .aside__list-link svg{
+	transform: rotate(-180deg);
+}
+
+.aside__sublist{
+	display: none;
+}
+
+.aside__list-item._active .aside__sublist{
+	display: block;
+}
+
+.aside__sublist-link{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	min-height: 44px;
+	padding: 6px 20px 6px 32px;
+	position: relative;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #29292B;
+	transition: color .2s linear;
+}
+
+@media (any-hover: hover){
+	.aside__list-link:hover{
+		color: #2E8B57;
+	}
+
+	.aside__sublist-link:hover{
+		color: #2E8B57;
+	}
+}
+
+.aside__list-link.active{
+	color: #2E8B57;
+}
+
+.aside__sublist-link.active{
+	color: #2E8B57;
+}
+
+.content__block{
+	width: calc(75% - 10px);
+	max-width: 860px;
+}
 
 /*------------
     footer
