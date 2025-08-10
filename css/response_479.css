@@ -130,6 +130,25 @@
 		padding-bottom: 69.71%;
 	}
 
+
+	.faq__colr
+	{
+		margin-top: 24px;
+	}
+
+	.faq__name
+	{
+		font-size: 18px;
+		line-height: 1.22;
+	}
+
+	.faq__item + .faq__item 
+	{
+		margin-top: 12px;
+		padding-top: 12px;
+	}
+
+
 	.gallery__grid
 	{
 		margin-left: -4px;

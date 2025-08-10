@@ -3193,7 +3193,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	width: 30px;
 	height: 31px;
 
-	background: url(../images/ic_arrow2.svg) 50% 50% no-repeat;
+	background: url(../images/ic_arrow2.svg) 50%/contain no-repeat;
 }
 
 .faq__item-pad::before
@@ -3228,6 +3228,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	text-decoration: none;
 	color: #29292B;
+}
+
+.faq__desc-link
+{
+	white-space: nowrap;
 }
 
 .faq__bot{

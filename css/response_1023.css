@@ -191,6 +191,59 @@
 	}
 
 
+	.faq__grid
+	{
+		display: block;
+	}
+
+	.faq__box
+	{
+		position: relative;
+		top: 0;
+	}
+
+	.faq__colr
+	{
+		margin-top: 30px;
+	}
+
+	.faq__items
+	{
+		max-width: 100%;
+	}
+	
+	.faq__item + .faq__item
+	{
+		margin-top: 24px;
+		padding-top: 24px;
+	}
+
+	.faq__name
+	{
+		font-size: 26px;
+	}
+
+	.faq__desc
+	{
+		margin-top: 20px;
+	}
+
+	.faq__desc br
+	{
+		display: none;
+	}
+
+	.faq__bot
+	{
+		margin-top: 32px;
+	}
+
+	.faq__phone
+	{
+		max-width: 100%;
+	}
+
+
 	.gallery__grid
 	{
 		margin: 8px 0 0 -8px;

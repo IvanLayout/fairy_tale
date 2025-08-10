@@ -267,6 +267,35 @@
 	}
 
 
+	.faq__item + .faq__item 
+	{
+		margin-top: 15px;
+		padding-top: 15px;
+	}
+
+	.faq__item-pad
+	{
+		padding-left: 42px;
+		padding-right: 40px;
+	}
+
+	.faq__item-pad::after
+	{
+		width: 24px;
+		height: 24px;
+	}
+
+	.faq__name
+	{
+		font-size: 22px;
+	}
+
+	.faq__desc
+	{
+		margin-top: 10px;
+	}
+
+
 	.footer__coll
 	{
 		padding: 20px;
