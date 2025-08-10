@@ -3529,6 +3529,32 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 
+.cats{
+	margin: 12px 0 0 -8px;
+
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.cats__item{
+	margin: 8px 0 0 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	text-decoration: none;
+	padding: 10px 32px;
+
+	font-weight: 500;
+	text-align: center;
+	color: #29292B;
+	border-radius: 20px;
+	background: #F7F7F8;
+	min-height: 60px;
+}
+
+
 /*------------
     footer
 ------------*/

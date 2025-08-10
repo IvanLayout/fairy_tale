@@ -374,4 +374,40 @@
 	/*------------
 		commit
 	------------*/
+	.info-imp{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.inhabitants__item {
+		width: calc(100% / 3 - 8px);
+	}
+
+	.leave-request{
+		padding-left: 20px;
+		padding-right: 20px;
+		flex-wrap: wrap;
+	}
+
+	.leave-request__btn-green{
+		margin: 24px 0 0;
+		width: 100%;
+	}
+
+
+	.cats__item{
+		font-size: 12px;
+		padding: 0 24px;
+		min-height: 40px;
+		border-radius: 12px;
+	}
+
+
+	._marg-inner{
+		margin-top: 48px;
+	}
+
+	.fishing-seasons__item {
+		width: calc(100% / 2 - 8px);
+	}
 }

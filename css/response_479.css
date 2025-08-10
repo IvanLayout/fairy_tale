@@ -267,4 +267,45 @@
 	/*------------
 		commit
 	------------*/
+	.page-title{
+		font-size: 32px;
+	}
+
+	.page-title__icon {
+		width: 36px;
+		height: 34px;
+	}
+
+	.inhabitants__grid{
+		margin: 20px 0 0 -4px;
+	}
+
+	.inhabitants__item {
+		margin: 4px 0 0 4px;
+		width: calc(100% / 2 - 4px);
+	}
+
+
+	.fishing-seasons__grid{
+		margin: 20px 0 0 -4px;
+	}
+
+	.fishing-seasons__item {
+		margin: 4px 0 0 4px;
+		width: calc(100% / 2 - 4px);
+	}
+
+	.fishing-seasons__name{
+		padding: 8px;
+	}
+
+	.wrap-btn{
+		margin-top: 16px;
+	}
+
+
+	.info-imp{
+		font-size: 12px;
+		line-height: 1.33;
+	}
 }
