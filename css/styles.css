@@ -934,6 +934,11 @@ button
     margin-top: 100px;
 }
 
+._marg-small
+{
+	margin-top: 32px;
+}
+
 
 /*----------------
     Typography

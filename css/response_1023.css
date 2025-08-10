@@ -5,6 +5,11 @@
 		font-size: 32px;
 	}
 
+	._marg-small
+	{
+		margin-top: 0;
+	}
+
 	.header
 	{
 		padding-top: 32px;
@@ -188,6 +193,11 @@
 	{
 		font-size: 18px;
 		padding: 20px;
+	}
+
+	.services__img
+	{
+		padding-bottom: 125.1%;
 	}
 
 
