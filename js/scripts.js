@@ -5,7 +5,7 @@ WW = window.innerWidth || document.clientWidth || document.querySelector('body')
 fakeResize = false
 fakeResize2 = true
 
-if (document.body.clientWidth < 405) {
+if (document.body.clientWidth < 375) {
 	document.getElementsByTagName('meta')['viewport'].content = 'width=405, user-scalable=no'
 }
 

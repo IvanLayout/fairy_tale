@@ -1,5 +1,229 @@
 @media (max-width: 479px)
 {
+	.main-title 
+	{
+		font-size: 26px;
+		line-height: 1.23;
+	}
+
+
+	.header__burger
+	{
+		width: 48px;
+		height: 48px;
+	}
+
+
+	.first-section__info
+	{
+		height: 400px;
+	}
+
+	.first-section__title
+	{
+		font-size: 26px;
+		line-height: 1.23;
+	}
+
+	
+	.achievements .main-title
+	{
+		line-height: 1.23;
+	}
+
+	.achievements__grid
+	{
+		margin-left: -4px;
+		margin-top: 28px;
+	}
+
+	.achievements__item 
+	{
+		width: calc(100% / 2 - 4px);
+		margin-top: 4px;
+		margin-left: 4px;
+	}
+
+
+	.tours-promo__item
+	{
+		margin-top: 4px;
+	}
+
+	.tours-promo__img,
+	.tours-promo__item._big .tours-promo__img 
+	{
+		padding-bottom: 87.464%;
+	}
+
+	.tours-promo__date
+	{
+		font-size: 12px;
+		line-height: 40px;
+	}
+
+	.tours-promo__link
+	{
+		width: 40px;
+		height: 40px;
+	}
+
+	.tours-promo__title, 
+	.tours-promo__item._big .tours-promo__title
+	{
+		font-size: 26px;
+	}
+
+	.tours-promo__desc
+	{
+		font-size: 12px;
+		margin-top: 5px;
+	}
+
+	.tours-promo__discount
+	{
+		font-size: 12px;
+		line-height: 40px;
+	}
+
+
+	.advantages-small-title
+	{
+		font-size: 12px;
+	}
+
+	.advantages-title 
+	{
+		font-size: 26px;
+		line-height: 1.23;
+	}
+
+	.advantages__box, 
+	.advantages__item._big .advantages__box
+	{
+		height: auto;
+	}
+
+	.advantages__info
+	{
+		position: relative;
+	}
+
+	.advantages__name
+	{
+		margin-top: 86px;
+		font-size: 18px;
+	}
+
+	.advantages__logo + .advantages__name
+	{
+		margin-top: 56px;
+	}
+
+	.services__item 
+	{
+		width: calc(100% - 8px);
+	}
+
+	.services__img
+	{
+		padding-bottom: 69.71%;
+	}
+
+	.gallery__grid
+	{
+		margin-left: -4px;
+	}
+
+	.gallery__item 
+	{
+		width: calc(100% / 2 - 4px);
+		margin: 4px 0 0 4px;
+		order: 2;
+	}
+
+	.gallery__item._big 
+	{
+		width: calc(100% - 4px);
+		order: 1;
+	}
+
+	.gallery__img 
+	{
+		padding-bottom: 106.2%;
+		border-radius: 12px;
+	}
+
+	.gallery__item._big .gallery__img 
+	{
+		padding-bottom: 70%;
+	}
+
+	.gallery__link
+	{
+		margin-top: 4px;
+	}
+
+
+	.footer__title 
+	{
+		font-size: 26px;
+	}
+
+	.footer__contacts
+	{
+		margin-top: 12px;
+	}
+
+	.footer__socials 
+	{
+		margin-left: -4px;
+		width: calc(100% + 4px);
+	}
+
+	.footer__socials-link 
+	{
+		width: calc(100% / 4 - 4px);
+		margin-left: 4px;
+		height: 48px;
+		border-radius: 12px;
+	}
+
+	.footer__item a
+	{
+		font-size: 12px;
+		line-height: 48px;
+		border-radius: 16px;
+	}
+
+	.footer__links
+	{
+		margin-top: 4px;
+	}
+
+	.footer__link
+	{
+		margin-top: 4px;
+	}
+
+	.footer__link a
+	{
+		font-size: 12px;
+		line-height: 48px;
+		border-radius: 16px;
+	}
+
+
+	.footer__bot
+	{
+		line-height: 1.4;
+	}
+
+	.footer__reservation-btn
+	{
+		line-height: 48px;
+		border-radius: 12px;
+	}
 	/*------------
 		commit
 	------------*/
