@@ -410,4 +410,19 @@
 	.fishing-seasons__item {
 		width: calc(100% / 2 - 8px);
 	}
+
+
+	.page-title + .main-subtitle{
+		margin-top: 12px;
+	}
+
+	.text-block thead th{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.text-block tbody td{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
 }

@@ -940,6 +940,61 @@ button
 	}
 }
 
+.text-block table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #F7F7F8;
+    border-radius: 20px;
+}
+
+.text-block thead th {
+    background: #2E8B57;
+    color: #fff;
+    padding: 16px 24px;
+    text-align: left;
+    
+	font-weight: 500;
+    font-size: 12px;
+	line-height: 1.33;
+	height: 48px;
+	width: 33.333%;
+}
+
+.text-block tbody td {
+    background: transparent;
+    padding: 16px 24px;
+	height: 48px;
+    border: none;
+    border-top: 1px solid #E0E0E1;
+    
+	font-weight: 500;
+    font-size: 12px;
+	line-height: 1.33;
+	color: #29292B;
+	width: 33.333%;
+}
+
+.text-block tbody tr:first-child td {
+    border-top: none;
+}
+
+.text-block table th:first-child{
+    border-radius: 20px 0 0 0;
+}
+
+.text-block table th:last-child{
+    border-radius: 0 20px 0 0;
+}
+
+.text-block table tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+
+.text-block table tr:last-child td:last-child {
+    border-radius: 0 0 20px 0;
+}
+
 /*------------------
     Form elements
 ------------------*/
@@ -1861,6 +1916,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	color: rgba(41, 41, 43, 0.8);
     margin-top: 4px;
+}
+
+.page-title + .main-subtitle{
+	margin-top: 18px;
 }
 
 
@@ -3552,6 +3611,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	border-radius: 20px;
 	background: #F7F7F8;
 	min-height: 60px;
+}
+
+
+.text-wrap{
+	margin-top: 32px;
 }
 
 
