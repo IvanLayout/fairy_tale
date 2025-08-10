@@ -3533,6 +3533,57 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-size: 32px;
 	line-height: 1;
 }
+
+/*------------
+	page-number
+------------*/
+
+.page-number__banner
+{
+	position: relative;
+	padding-bottom: 58.19%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.page-number__banner img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.page-number__item
+{
+	margin-top: 72px;
+}
+
+.page-number__reservation-btn
+{
+	color: #FEFEFE;
+	font-weight: 500;
+	line-height: 60px;
+	border-radius: 20px;
+	background: #2E8B57;
+	padding: 0 32px;
+	width: 100%;
+	transition: background .2s linear;
+}
+
+@media (any-hover: hover)
+{
+	.page-number__reservation-btn:hover
+	{
+		background: #5BB884;
+	}
+}
 /*------------
 	commit
 ------------*/
