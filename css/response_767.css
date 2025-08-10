@@ -296,6 +296,29 @@
 	}
 
 
+	.cats-numbers__box
+	{
+		display: block;
+	}
+
+	.sorting
+	{
+		margin-top: 10px;
+		margin-left: 0;
+	}
+
+	.cats-numbers__grid
+	{
+		margin-top: 16px;
+	}
+
+	.cats-numbers__item,
+	.cats-numbers__item._big
+	{
+		width: calc(100% / 1 - 8px);
+	}
+
+
 	.footer__coll
 	{
 		padding: 20px;

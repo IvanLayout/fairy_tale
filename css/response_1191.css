@@ -148,6 +148,41 @@
 	}
 
 
+	.cats-numbers__top,
+	.cats-numbers__bot
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.cats-numbers__item._big .cats-numbers__top,
+	.cats-numbers__item._big .cats-numbers__bot
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.cats-numbers__name
+	{
+		font-size: 28px;
+	}
+
+	.cats-numbers__item._big .cats-numbers__name 
+	{
+		font-size: 40px;
+	}
+
+	.cats-numbers__price
+	{
+		font-size: 22px;
+	}
+
+	.cats-numbers__item._big .cats-numbers__price
+	{
+		font-size: 30px;
+	}
+
+
 	.footer
 	{
 		padding-bottom: 40px;
