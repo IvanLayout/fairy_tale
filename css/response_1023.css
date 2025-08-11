@@ -465,21 +465,80 @@
 	}
 
 	.gallery-inner__item
-{
-	width: calc(100%/3 - 8px);
-	margin: 8px 0 0 8px;
-}
+	{
+		width: calc(100%/3 - 8px);
+		margin: 8px 0 0 8px;
+	}
 
-.gallery-inner__item._big
-{
-	width: calc(100%/1 - 8px);
-}
+	.gallery-inner__item._big
+	{
+		width: calc(100%/1 - 8px);
+	}
 
-.gallery-inner__item._small
-{
-	width: calc(100%/6 - 8px);
-}
+	.gallery-inner__item._small
+	{
+		width: calc(100%/6 - 8px);
+	}
 
+
+	.page-tour__img
+	{
+		padding-bottom: 54.348%;
+	}
+
+	.page-tour__info
+	{
+		margin-top: 20px;
+	}
+
+	.page-tour__page-title
+	{
+		font-size: 42px;
+	}
+
+	.page-tour__box
+	{
+		display: block;
+	}
+
+	.page-tour__price
+	{
+		width: calc(100%/3 - 8px);
+		text-align: center;
+		line-height: 48px;
+		border-radius: 16px;
+	}
+
+	.page-tour__btn
+	{
+		margin-left: 0;
+		margin-top: 24px;
+		max-width: 100%;
+	}
+
+	.page-tour__cols
+	{
+		margin-top: 50px;
+		display: block;
+	}
+
+	.page-tour__coll
+	{
+		width: 100%;
+	}
+
+	.page-tour__wrap
+	{
+		position: relative;
+		top: 0;
+	}
+
+	.page-tour__colr
+	{
+		width: 100%;
+		max-width: 100%;
+		margin-top: 56px;
+	}
 
 	.footer
 	{

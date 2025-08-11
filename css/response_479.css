@@ -322,6 +322,56 @@
 		padding-bottom: 100%;
 	}
 
+	.gallery-inner__mob  .gallery-inner__item._big .gallery-inner__img 
+	{
+		padding-bottom: 70%;
+	}
+
+	.gallery-inner__mob  .gallery-inner__item._small .gallery-inner__img 
+	{
+		padding-bottom: 106.2%;
+	}
+
+
+	.page-tour__img 
+	{
+		padding-bottom: 75.81%;
+	}
+
+	.page-tour__page-title 
+	{
+		font-size: 24px;
+	}
+
+	.page-tour__btn-green
+	{
+		line-height: 48px;
+		border-radius: 16px;
+	}
+
+	.page-tour__cols .text-block 
+	{
+		margin-top: 20px;
+	}
+
+	.page-tour__items
+	{
+		margin-top: 15px;
+	}
+
+	.page-tour__item 
+	{
+		padding: 0 24px;
+		line-height: 40px;
+		border-radius: 12px;
+		font-size: 12px;
+	}
+
+	.page-tour__colr
+	{
+		margin-top: 40px;
+	}
+
 
 	.footer__title 
 	{

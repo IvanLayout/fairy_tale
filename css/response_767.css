@@ -386,6 +386,27 @@
 	}
 
 
+	.page-tour__img 
+	{
+		padding-bottom: 71%;
+	}
+
+	.page-tour__page-title
+	{
+		font-size: 38px;
+	}
+
+	.page-tour__price
+	{
+		width: calc(100% - 8px);
+	}
+
+	.page-tour__cols
+	{
+		margin-top: 45px;
+	}
+
+
 	.footer__coll
 	{
 		padding: 20px;

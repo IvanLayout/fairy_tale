@@ -209,6 +209,19 @@
 		font-size: 48px;
 	}
 
+
+	.page-tour__page-title
+	{
+		font-size: 54px;
+	}
+
+	.page-tour__price
+	{
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+
 	.footer
 	{
 		padding-bottom: 40px;
