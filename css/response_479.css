@@ -268,6 +268,61 @@
 	}
 
 
+	.corporate-banner__img
+	{
+		padding-bottom: 93.3%;
+	}
+
+	.corporate-banner__title
+	{
+		padding-left: 23px;
+		padding-right: 23px;
+	}
+
+	.corporate-info__title
+	{
+		font-size: 26px;
+	}
+
+	.corporate-info__item
+	{
+		font-size: 12px;
+		border-radius: 12px;
+		line-height: 40px;
+	}
+
+	.gallery-inner__grid 
+	{
+		margin-left: -4px;
+	}
+
+	.gallery-inner__item
+	{
+		width: calc(100%/2 - 4px);
+		margin: 4px 0 0 4px;
+	}
+
+	.gallery-inner__item._big
+	{
+		width: calc(100%/1 - 4px);
+	}
+
+	.gallery-inner__item._small
+	{
+		width: calc(100%/2 - 4px);
+	}
+
+	.gallery-inner__item._hide
+	{
+		display: none;
+	}
+
+	.gallery-inner__item._big .gallery-inner__img 
+	{
+		padding-bottom: 100%;
+	}
+
+
 	.footer__title 
 	{
 		font-size: 26px;

@@ -357,6 +357,35 @@
 	}
 
 
+	.corporate-banner__img 
+	{
+		padding-bottom: 92%;
+	}
+	
+	.corporate-banner__bg::before,
+	.corporate-banner__bg::after
+	{
+		display: none;
+	}
+
+	.corporate-banner__title
+	{
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-bottom: 30px;
+	}
+
+	.corporate-info__title
+	{
+		font-size: 30px;
+	}
+
+	.gallery-inner__item._small 
+	{
+		width: calc(100% / 3 - 8px);
+	}
+
+
 	.footer__coll
 	{
 		padding: 20px;

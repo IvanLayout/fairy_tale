@@ -3541,10 +3541,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #FEFEFE;
 }
 
-.corporate-info
-{
-	margin-top: 65px;
-}
+
 
 .corporate-info__cols
 {

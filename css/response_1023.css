@@ -408,7 +408,78 @@
 	{
 		max-width: 100%;
 	}
+
+
+	.corporate-banner__img
+	{
+		padding-bottom: 54.4%;
+	}
+
+	.corporate-banner__bg::after
+	{
+		width: 24px;
+		height: 24px;
+
+		top: 32px;
+		left: 32px;
+	}
+
+	.corporate-banner__bg::before
+	{
+		width: 24px;
+		height: 24px;
+
+		bottom: 32px;
+		right: 32px;
+	}
+
+	.corporate-banner__title 
+	{
+		font-size: 42px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.corporate-info__coll
+	{
+		width: 100%;
+		max-width: 100%;
+	}
 	
+	.corporate-info__colr
+	{
+		width: 100%;
+		margin-top: 56px;
+	}
+
+	.corporate-info__items
+	{
+		margin-top: 15px;
+	}
+
+
+	.gallery-inner__grid
+	{
+		margin-left: -8px;
+		margin-top: 10px;
+	}
+
+	.gallery-inner__item
+{
+	width: calc(100%/3 - 8px);
+	margin: 8px 0 0 8px;
+}
+
+.gallery-inner__item._big
+{
+	width: calc(100%/1 - 8px);
+}
+
+.gallery-inner__item._small
+{
+	width: calc(100%/6 - 8px);
+}
+
 
 	.footer
 	{
