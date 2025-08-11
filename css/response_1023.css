@@ -47,6 +47,39 @@
 	}
 
 
+	.first-section__info
+	{
+		height: 400px;
+		padding: 32px;
+	}
+
+	.first-section__title
+	{
+		font-size: 32px;
+	}
+
+	.first-section__logo
+	{
+		height: 80px;
+	}
+
+	.first-section__bg::before
+	{
+		bottom: 32px;
+		right: 32px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.first-section__bg::after
+	{
+		top: 32px;
+		right: 32px;
+		width: 20px;
+		height: 20px;
+	}
+
+
 	.achievements .main-title
 	{	
 		font-size: 26px;
@@ -123,6 +156,7 @@
 	.tours-promo__discount
 	{
 		margin-top: 4px;
+		width: 100%;
 	}
 
 	.tours-promo__title 
