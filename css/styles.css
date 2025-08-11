@@ -3001,11 +3001,21 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	gallery
 ------------*/
 
+.gallery__inner
+{
+	margin-top: -20px;
+}
+
 .gallery__grid
 {
 	margin: 4px 0 0 -20px;
 	align-items: stretch;
 	align-content: stretch;
+}
+
+.gallery__inner .gallery__grid
+{
+	margin-top: 0;
 }
 
 .gallery__item
@@ -3307,9 +3317,9 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	object-fit: cover;
 }
 
-.page-number__item
+.page-number__box
 {
-	margin-top: 72px;
+	margin-top: 70px;
 }
 
 .page-number__reservation-btn
@@ -3330,6 +3340,115 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	{
 		background: #5BB884;
 	}
+}
+
+.page-number__top
+{
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.page-number__title
+{
+	font-family: var(--font-family2);
+	font-size: 60px;
+	line-height: 1;
+}
+
+.page-number__price
+{
+	white-space: nowrap;
+	margin-left: 30px;
+	font-family: var(--font-family2);
+	font-size: 48px;
+	line-height: 1;
+	align-self: flex-end;
+}
+
+.page-number__bot
+{
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: 14px;
+}
+
+.page-number__items
+{
+	margin-left: -8px;
+}
+
+.page-number__items-flex
+{
+	margin-left: -8px;
+}
+
+.page-number__item
+{
+	margin: 8px 0 0 8px;
+	background: #F7F7F8;
+	border-radius: 20px;
+	padding: 0 32px;
+	white-space: nowrap;
+	line-height: 60px;
+	font-weight: 500;
+}
+
+.page-number__btn
+{
+	flex-shrink: 0;
+	margin-left: 30px;
+	width: 100%;
+	max-width: 290px;
+	margin-top: 8px;
+}
+
+.page-number__name
+{
+	font-family: var(--font-family2);
+	font-size: 32px;
+	line-height: 1;
+}
+
+.page-number__name + .page-number__items
+{
+	margin-top: 8px;
+}
+
+.page-number__desc
+{
+	margin-top: 18px;
+	max-width: 460px;
+}
+
+.page-number__times
+{
+	margin-top: 32px;
+}
+
+.page-number__time
+{
+	background: #F5F5F6;
+	border-radius: 20px;
+	padding: 20px 32px 27px;
+	min-width: 226px;
+}
+
+.page-number__time + .page-number__time
+{
+	margin-left: 8px;
+}
+
+.page-number__text
+{
+	opacity: .6;
+}
+
+.page-number__val
+{
+	margin-top: 5px;
+	font-family: var(--font-family2);
+	font-size: 44px;
+	line-height: 1;
 }
 /*------------
 	commit

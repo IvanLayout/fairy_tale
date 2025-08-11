@@ -205,6 +205,69 @@
 	}
 
 
+	.page-number__banner 
+	{
+		padding-bottom: 76%;
+	}
+
+	.page-number__box + .page-number__box
+	{
+		margin-top: 48px;
+	}
+
+	.page-number__title,
+	.page-number__price
+	{
+		font-size: 32px;
+	}
+
+	.page-number__items-flex
+	{
+		margin-left: -4px;
+	}
+
+	.page-number__items-flex .page-number__item 
+	{
+		width: calc(100% / 2 - 4px);
+		margin: 4px 0 0 4px;
+	}
+
+	.page-number__name
+	{
+		font-size: 26px;
+	}
+
+	.page-number__time
+	{
+		padding: 16px 20px;
+		width: calc(50% - 2px);
+	}
+
+	.page-number__time + .page-number__time
+	{
+		margin-left: 4px;
+	}
+
+	.page-number__val
+	{
+		font-size: 32px;
+	}
+
+	.page-number__val
+	{
+		margin-top: 12px;
+	}
+
+	.page-number__item
+	{
+		font-size: 12px;
+		line-height: 40px;
+		border-radius: 12px;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+
 	.footer__title 
 	{
 		font-size: 26px;

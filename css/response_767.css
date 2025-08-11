@@ -319,6 +319,44 @@
 	}
 
 
+	.page-number__banner 
+	{
+		padding-bottom: 66%;
+	}
+
+	.page-number__top
+	{
+		display: block;
+	}
+
+	.page-number__title
+	{
+		font-size: 38px;
+	}
+
+	.page-number__price
+	{
+		margin-left: 0;
+		font-size: 38px;
+	}
+
+	.page-number__items-flex .page-number__item
+	{
+		width: calc(100% / 2 - 8px);
+	}
+
+	.page-number__name
+	{
+		font-size: 30px;
+	}
+
+	.page-number__time
+	{
+		width: calc(50% - 4px);
+		min-width: 1px;
+	}
+
+
 	.footer__coll
 	{
 		padding: 20px;

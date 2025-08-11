@@ -357,6 +357,59 @@
 	}
 
 
+	.page-number__banner
+	{
+		padding-bottom: 54.4%;
+	}
+
+	.page-number__wrap
+	{
+		margin-top: 24px;
+	}
+
+	.page-number__title
+	{
+		font-size: 42px;
+	}
+
+	.page-number__price
+	{
+		font-size: 42px;
+	}
+
+	.page-number__bot
+	{
+		display: block;
+	}
+
+	.page-number__items-flex .page-number__item
+	{
+		width: calc(100%/4 - 8px);
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 48px;
+		border-radius: 16px;
+	}
+
+	.page-number__btn
+	{
+		margin-top: 24px;
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.page-number__btn button
+	{
+		line-height: 48px;
+	}
+
+	.page-number__desc
+	{
+		max-width: 100%;
+	}
+	
+
 	.footer
 	{
 		padding-bottom: 32px;
