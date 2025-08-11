@@ -3353,6 +3353,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-family: var(--font-family2);
 	font-size: 60px;
 	line-height: 1;
+	font-weight: 400;
 }
 
 .page-number__price
@@ -3539,6 +3540,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	line-height: 1;
 	z-index: 2;
 	color: #FEFEFE;
+	font-weight: 400;
 }
 
 
@@ -3626,7 +3628,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 .gallery-inner__item._big .gallery-inner__img
 {
-	padding-bottom: 50.04%;
+	padding-bottom: 56.04%;
 }
 
 .gallery-inner__img img
@@ -3651,6 +3653,182 @@ input[type=checkbox]:checked + .checkbox-btn__text
     {
         transform: scale(1.05);
     }
+}
+
+
+.page-tour__img
+{
+	position: relative;
+	padding-bottom: 37.932%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.page-tour__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.page-tour__info
+{
+	margin-top: 37px;
+}
+
+.page-tour__page-title
+{
+	font-family: var(--font-family2);
+	font-size: 60px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+.page-tour__box
+{
+	margin-top: 22px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.page-tour__prices
+{
+	margin: -8px 0 0 -8px;
+}
+
+.page-tour__price
+{
+	white-space: nowrap;
+	padding: 0 32px;
+	line-height: 60px;
+	background: #F7F7F8;
+	border-radius: 20px;
+	margin: 8px 0 0 8px;
+	font-weight: 500;
+}
+
+.page-tour__price span
+{
+	color: #2E8B57;
+}
+
+.page-tour__btn
+{
+	flex-shrink: 0;
+	margin-left: 30px;
+	width: 100%;
+	max-width: 290px;
+}
+
+.page-tour__cols
+{
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	margin-top: 67px;
+}
+
+.page-tour__coll
+{
+	width: calc(50% - 20px);
+}
+
+.page-tour__wrap
+{
+	position: sticky;
+	top: 30px;
+	left: 0;
+}
+
+.page-tour__colr
+{
+	width: calc(50% - 20px);
+	max-width: 460px;
+}
+
+.page-tour__title
+{
+	font-family: var(--font-family2);
+	font-size: 32px;
+	line-height: 1;
+}
+
+.page-tour__cols .text-block
+{
+	margin-top: 27px;
+}
+
+.page-tour__cols .text-block p 
+{
+    margin-bottom: 12px;
+}
+
+.page-tour__items
+{
+	margin: 24px 0 0 -8px;
+}
+
+.page-tour__item
+{
+	white-space: nowrap;
+	padding: 0 32px;
+	line-height: 60px;
+	background: #F7F7F8;
+	border-radius: 20px;
+	margin: 8px 0 0 8px;
+	font-weight: 500;
+}
+
+.page-tour__timetables
+{
+	margin-top: 22px;
+}
+
+.page-tour__timetable + .page-tour__timetable
+{
+	margin-top: 27px;
+}
+
+.page-tour__timetable
+{
+	position: relative;
+	padding-left: 50px;
+}
+
+.page-tour__timetable::before
+{
+	position: absolute;
+	content: '';
+	top: 3px;
+	left: 0;
+
+	display: block;
+
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+
+	background: #F7F7F8 url(../images/ic_star_dark.svg) 50% 50% / 17px 18px no-repeat;
+}
+
+.page-tour__time
+{
+	font-family: var(--font-family2);
+	font-size: 26px;
+	line-height: 1.23;
+}
+
+.page-tour__desc
+{
+	opacity: .8;
+	margin-top: 10px;
 }
 /*------------
 	commit
