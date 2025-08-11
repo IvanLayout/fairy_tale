@@ -3397,6 +3397,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	white-space: nowrap;
 	line-height: 60px;
 	font-weight: 500;
+	text-decoration: none;
+	color: #29292B;
 }
 
 .page-number__btn
@@ -3597,6 +3599,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	white-space: nowrap;
 	margin: 8px 0 0 8px;
 	font-weight: 500;
+	text-decoration: none;
+	color: #29292B;
 }
 
 
@@ -3717,6 +3721,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	border-radius: 20px;
 	margin: 8px 0 0 8px;
 	font-weight: 500;
+	text-decoration: none;
+	color: #29292B;
 }
 
 .page-tour__price span
@@ -3789,6 +3795,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	border-radius: 20px;
 	margin: 8px 0 0 8px;
 	font-weight: 500;
+	text-decoration: none;
+	color: #29292B;
 }
 
 .page-tour__timetables
