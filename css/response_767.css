@@ -1,5 +1,15 @@
 @media (max-width: 767px)
 {
+	.fancybox__slide .f-button[data-fancybox-close]
+	{
+		width: 48px;
+		height: 48px;
+		border-radius: 0;
+		background: none;
+		top: 21px;
+		right: 16px;
+	}
+
 	._marg
 	{
 		margin-top: 48px;

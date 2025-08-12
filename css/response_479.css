@@ -6,6 +6,12 @@
 		line-height: 1.23;
 	}
 
+	.form .form__input
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 
 	.header__burger
 	{
@@ -431,6 +437,27 @@
 	{
 		line-height: 48px;
 		border-radius: 12px;
+	}
+
+
+	.fancybox__slide.has-html
+	{
+		padding: 0;
+	}
+
+	.fancybox__slide .f-button[data-fancybox-close]
+	{
+		top: 16px;
+	}
+
+	.modal
+	{
+		padding: 29px 16px 16px;
+	}
+
+	.modal__title
+	{
+		font-size: 18px;
 	}
 	/*------------
 		commit
