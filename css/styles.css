@@ -366,61 +366,6 @@ button
     display: none;
 }
 
-
-/*------------
-    pagination
-------------*/
-.pagination
-{
-    margin-top: 45px;
-}
-
-.pagination__flex a + a
-{
-    margin-left: 17px;
-}
-
-.pagination__flex a
-{
-    position: relative;
-
-    color: #4DBD3C;
-    font-size: 21px;
-	font-weight: 500;
-	line-height: 60px;
-	display: block;
-	width: 60px;
-	height: 60px;
-	border-radius: 12px;
-	text-align: center;
-	padding: 0 10px;
-
-    text-decoration: none;
-	background: rgba(77, 189, 60, .1);
-
-    transition: color .2s linear, background .2s linear;
-}
-
-@media (any-hover: hover)
-{
-    .pagination__flex a:hover
-    {
-        color: #fff;
-		background: #4DBD3C;
-    }
-}
-
-.pagination .pagination__active
-{
-    color: #fff;
-	background: #4DBD3C;
-}
-
-.pagination__link
-{
-	margin-left: auto;
-}
-
 /*------------
     Header
 ------------*/
@@ -1000,28 +945,28 @@ button
 ------------------*/
 ::-webkit-input-placeholder
 {
-    color: rgba(5, 24, 36, 0.5);
+    color: rgba(186, 186, 186, 1);
 
     opacity: 1;
 }
 
 ::-moz-placeholder
 {
-    color: rgba(5, 24, 36, 0.5);
+    color: rgba(186, 186, 186, 1);
 
     opacity: 1;
 }
 
 :-moz-placeholder
 {
-    color: rgba(5, 24, 36, 0.5);
+    color: rgba(186, 186, 186, 1);
 
     opacity: 1;
 }
 
 :-ms-input-placeholder
 {
-    color: rgba(5, 24, 36, 0.5);
+    color: rgba(186, 186, 186, 1);
 
     opacity: 1;
 }
@@ -1143,6 +1088,13 @@ button
     margin-top: 56px;
 }
 
+.form__submit-btn:disabled
+{
+	cursor: default;
+	background: #F7F7F8;
+	color: #BABABA;
+}
+
 .form__agree
 {
 	margin-top: 8px;
@@ -1167,70 +1119,6 @@ button
     {
         color: #2E8B57;
     }
-}
-
-
-.radios
-{
-    margin-top: 15px;
-    padding-left: 20px;
-}
-
-.radio + .radio
-{
-    margin-top: 8px;
-}
-
-.radio input[type=radio]
-{
-    display: none;
-}
-
-.radio__label
-{
-    position: relative;
-
-    display: block;
-
-    cursor: pointer;
-}
-
-.radio__text
-{
-    position: relative;
-
-    color: #282828;
-    font-size: 14px;
-    line-height: 20px;
-
-    display: block;
-
-    padding-left: 29px;
-}
-
-.radio__text::before
-{
-    content: "";
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-
-    border: 1px solid rgba(0, 118, 87, .1);
-    border-radius: 50%;
-    background: #EDF2EF;
-
-    transition: border .2s linear, background .2s linear;
-}
-
-input[type=radio]:checked + .radio__text::before
-{
-    border-width: 5px;
-    border-color: #007657;
-    background: #FFF;
 }
 
 
@@ -1318,167 +1206,6 @@ input[type=checkbox]:checked + .checkbox__text::before
 input[type=checkbox]:checked + .checkbox__text::after
 {
     opacity: 1;
-}
-
-.checkbox-text input[type=checkbox]
-{
-    display: none;
-}
-
-.checkbox-text__label
-{
-    position: relative;
-
-    display: block;
-
-    cursor: pointer;
-}
-
-.checkbox-text__text
-{
-    position: relative;
-
-    color: #282828;
-    font-size: 14px;
-    line-height: 1.3;
-
-    display: block;
-
-    padding-left: 30px;
-}
-
-.checkbox-text__text._big
-{
-    font-size: 16px;
-}
-
-.checkbox-text__text::before
-{
-    content: "";
-
-    position: absolute;
-    top: 50%;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-
-    border: 1px solid rgba(0, 118, 87, .2);
-    border-radius: 2px;
-    background: #EDF2EF;
-}
-
-input[type=checkbox]:checked + .checkbox-text__text::before
-{
-    border-color: #007657;
-    background: #007657;
-}
-
-.checkbox-text__text::after
-{
-    content: "";
-
-    position: absolute;
-    top: 50%;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-
-    opacity: 0;
-    background: url(../images/ic_check2.svg) 50% no-repeat;
-
-    transition: opacity .2s linear;
-}
-
-input[type=checkbox]:checked + .checkbox-text__text::after
-{
-    opacity: 1;
-}
-
-.checkbox-text__text a
-{
-    color: #007657;
-
-    text-decoration: none;
-
-    border-bottom: 1px solid #007657;
-
-    transition: border .2s linear;
-}
-
-@media (any-hover: hover)
-{
-    .checkbox-text__text a:hover
-    {
-        border-bottom-color: transparent;
-    }
-}
-
-
-.checkbox-btns
-{
-    margin: -5px 0 0 -5px;
-}
-
-.checkbox-btn
-{
-    flex-grow: 1;
-
-    max-width: calc(100% - 5px);
-    margin: 5px 0 0 5px;
-}
-
-.checkbox-btn input[type=checkbox]
-{
-    display: none;
-}
-
-.checkbox-btn__label
-{
-    position: relative;
-
-    display: block;
-
-    cursor: pointer;
-}
-
-.checkbox-btn__text
-{
-    position: relative;
-
-    color: #282828;
-    font-size: 14px;
-    line-height: 31px;
-
-    display: block;
-    overflow: hidden;
-
-    padding: 0 12px;
-
-    text-align: center;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
-    border-radius: 2px;
-    background: #F9F9F9;
-
-    transition: background .2s linear;
-}
-
-input[type=checkbox]:checked + .checkbox-btn__text
-{
-    background: #E8E8E8;
-}
-
-@media (any-hover: hover)
-{
-    .checkbox-btn__text:hover
-    {
-        background: #E8E8E8;
-    }
 }
 
 
@@ -1668,72 +1395,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 
-.file-selection
-{
-    margin-bottom: 24px;
-}
-
-.file-selection input[type=file]
-{
-    display: none;
-}
-
-.file-selection__path
-{
-    position: relative;
-
-    color: #808080;
-    font-size: 13px;
-    line-height: 18px;
-
-    display: block;
-    overflow: hidden;
-
-    width: 100%;
-    padding-left: 28px;
-
-    cursor: pointer;
-    text-align: left;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
-    transition: color .2s linear;
-}
-
-.file-selection__path-icon
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 18px;
-    height: 18px;
-}
-
-@media (any-hover: hover)
-{
-    .file-selection__path:hover
-    {
-        color: #242828;
-    }
-}
-
-.legal-entity
-{
-    display: none;
-}
-
-.form._legal-entity .individual
-{
-    display: none;
-}
-
-.form._legal-entity .legal-entity
-{
-    display: block;
-}
-
-
 
 /*---------------
 	Page head
@@ -1882,17 +1543,17 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 .fancybox__loader {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(255, 255, 255, 0.9);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  font-family: sans-serif;
-  font-size: 16px;
-  color: #444;
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(255, 255, 255, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #444;
 }
 
 
