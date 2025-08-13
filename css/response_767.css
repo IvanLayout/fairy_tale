@@ -1,6 +1,6 @@
 @media (max-width: 767px)
 {
-	.fancybox__slide .f-button[data-fancybox-close]
+	.fancybox__content > .carousel__button.is-close
 	{
 		width: 48px;
 		height: 48px;
