@@ -69,7 +69,7 @@ $(() => {
 		isMobile: true,
     	autoClose: true,
 		onSelect({date}) {
-			dpMax.update({
+			dpMax2.update({
 				minDate: date
 			})
 		}
@@ -79,7 +79,7 @@ $(() => {
 		isMobile: true,
     	autoClose: true,
 		onSelect({date}) {
-			dpMin.update({
+			dpMin2.update({
 				maxDate: date
 			})
 		}
